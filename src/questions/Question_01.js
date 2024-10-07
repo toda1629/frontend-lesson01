@@ -24,16 +24,14 @@ export default function Question_01() {
   // 定数群
   const message = "Hello World!";   // 変更しない
   const date = "2024/10/06";    // 本日の日付 (YYYY/MM/DD)
-  const id = "001";         // 出席番号
+  const id = "";         // 自分の名前
 
   return (
     <div>
       <h1 className='question-title'>【問１】React要素の作成</h1>
       <div className='question-content'>
       {/* ↓↓↓ 描画する内容を書く ↓↓↓ */}
-      <h1>{message}</h1>
-      <div>{date}</div>
-      <p>{id}</p>
+      
 
       {/* ↑↑↑ 描画する内容を書く ↑↑↑ */}
       </div>
