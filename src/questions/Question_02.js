@@ -33,9 +33,7 @@ export default function Question_02() {
   const result = kyusyu.map((el, index) => {
     return (
       <li key={index}>
-        <div>No.{index + 1}</div>
-        <div>{el.name}</div>
-        <div>{el.population.toLocaleString()} 人</div>
+        
       </li>
     );
   });
